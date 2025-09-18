@@ -1,0 +1,26 @@
+{
+	"servers": {
+		"filesystem": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-filesystem",
+				"F:\\"
+			],
+			"type": "stdio"
+		},
+		"time": {
+			"command": "uvx",
+			"args": [
+				"mcp-server-time"
+			],
+			"type": "stdio"
+		},
+		"pdf-reader-mcp": {
+			"command": "npx",
+			"args": ["@sylphlab/pdf-reader-mcp"],
+			"name": "PDF Reader (npx)"
+    	}
+	},
+	"inputs": []
+}
